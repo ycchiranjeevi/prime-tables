@@ -62,6 +62,10 @@ Answer:
     11    22    33    55    77   121
 ```
 
+## Time Complexity
+
+1. To generate n primes: approximately n * squaroot(n)
+2. To print the table: (n + 1) * (n + 1)
 
 ...
 
