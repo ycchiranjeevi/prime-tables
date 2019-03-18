@@ -71,7 +71,7 @@ Answer:
 
 # Scalability
 
-We can include memoized version of the lazy-primes for high number of requests. The memoized version stores incremental additions of primes.
+We can include memoized version of the lazy-primes for high number of random requests. The memoized version stores incremental additions of primes.
 
 For the memoized version, we can not use the current *lazy-primes*. Instead we can write *get-next-prime* function. Using this function we can memoize the primes, and use that for subsequent retrieval list of first n primes for any number of random requests.
 ...
