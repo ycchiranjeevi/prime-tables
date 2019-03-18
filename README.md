@@ -13,7 +13,7 @@ https://leiningen.org/
 ```
 ## Compile the program
 
-Run the following command at the root of the source director
+Run the following command at the root of the source directory:
 ```
 lein do clean, uberjar
 ```
@@ -66,7 +66,7 @@ Answer:
 
 ## Time Complexity
 
-1. To generate n primes: approximately n * squaroot(n)
+1. To generate n primes: approximately n * squareroot(n)
 2. To print the table: (n + 1) * (n + 1)
 
 ## Scalability
