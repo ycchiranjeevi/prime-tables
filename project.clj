@@ -6,7 +6,6 @@
   :dependencies 
 	[[org.clojure/clojure "1.8.0"]]
   :main prime-table.core
-  :plugins [[cider/cider-nrepl "0.16.0"]
-	    [test2junit "1.4.2"]]
+  :plugins [[cider/cider-nrepl "0.16.0"]]
   :aot :all
 )

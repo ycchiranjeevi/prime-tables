@@ -2,7 +2,7 @@
   "Functions to generate First N Primes and their tables"
   (:gen-class))
 
-(defn- lazy-primes
+(defn lazy-primes
   "Generates Primes Lazily.
    Time Complexity of generating n-primes is n*sqrt(n)
    As per the link:
