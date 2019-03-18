@@ -32,6 +32,7 @@ Run the following commands to start the program
 
 ## Examples
 1. Without args (10 primes)
+
 ```java -jar target/prime-table-0.1.0-SNAPSHOT-standalone.jar```
 
 Answer:
@@ -50,6 +51,7 @@ Answer:
 ```
 
 2. With args (custom)
+
 ```java -jar target/prime-table-0.1.0-SNAPSHOT-standalone.jar 5```
 
 Answer:
@@ -67,6 +69,11 @@ Answer:
 1. To generate n primes: approximately n * squaroot(n)
 2. To print the table: (n + 1) * (n + 1)
 
+# Scalability
+
+We can include memoized version of the lazy-primes for high number of requests. The memoized version stores incremental additions of primes.
+
+For the memoized version, we can not use the current *lazy-primes*. Instead we can write *get-next-prime* function. Using this function we can memoize the primes, and use that for subsequent retrieval list of first n primes for any number of random requests.
 ...
 
 Distributed under the Eclipse Public License either version 1.0 or (at
