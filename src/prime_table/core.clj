@@ -54,4 +54,6 @@
 (defn -main
   "The main entry point"
   [& args]
-  (print-prime-table 10))
+  (if (> (count args) 0)
+    (print-prime-table (args first #(Long/parseLong %)))
+    (print-prime-table 10)))
