@@ -55,5 +55,5 @@
   "The main entry point"
   [& args]
   (if (> (count args) 0)
-    (print-prime-table (args first #(Long/parseLong %)))
+    (print-prime-table (Long/parseLong (first args)))
     (print-prime-table 10)))
